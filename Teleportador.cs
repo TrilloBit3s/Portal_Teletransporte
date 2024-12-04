@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ALendaDoDragaoProject
+namespace TrilloBit3sIndieGames
 {
     public class Teleportador : MonoBehaviour
     {
@@ -29,10 +29,7 @@ namespace ALendaDoDragaoProject
 
         private void TeleportTo(Transform spawnPoint)
         {
-            //if (spawnPoint != null)
-            //{
-                transform.position = spawnPoint.position;
-            //}
+            transform.position = spawnPoint.position;
         }
     }
 }
@@ -41,7 +38,7 @@ namespace ALendaDoDragaoProject
 //script antigo
 using UnityEngine;
 
-namespace ALendaDoDragaoProject
+namespace TrilloBit3sIndieGames
 {
     public class Portals : MonoBehaviour
     {       
